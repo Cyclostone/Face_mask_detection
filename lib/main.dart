@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Face Mask Detection',
       home: MySplashPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
